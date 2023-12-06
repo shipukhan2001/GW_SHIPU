@@ -24,7 +24,7 @@ def is_password_valid(user_password, stored_password):
     return user_password == stored_password
 
 def main():
-    stored_password = "XD"  # Replace with your stored password
+    stored_password = "SK"  # Replace with your stored password
     os.system('espeak -a 300 " Enter Your Password "')
 
     while True:
@@ -37,7 +37,7 @@ def main():
             print("\033[92;1mPassword is correct-✅")
             os.system('espeak -a 300 " password is correct "')
             print("Welcome to akash TOOLS!")
-            os.system('espeak -a 300 "Welcome to Shipu Khan Tools varson 0.1 ..."')
+            os.system('espeak -a 300 "Welcome to Shipu Tools varson 0.1 ..."')
             time.sleep(2)
             os.system('clear')
             # Add your script's main logic here
