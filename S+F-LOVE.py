@@ -121,7 +121,7 @@ for txxxtt in range (1000):
 	ugen.append(ffg)
 #--------------------------(LOGO BOX)--------------------------#
 os.system("espeak \"well come,to Shipu Khan Random Cloning Start Please Wait\"")
-logo = ("""
+logo = ("""\033[38;5;46m
  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. |
 | |    _______   | || |      _       | || |  _________   | |
@@ -176,9 +176,9 @@ def v2():
     os.system('clear')
     print(logo)
     print('[+] BD NUMBER  => 016 017 018 019')
-    os.system('xdg-open https://www.facebook.com/BCS.Bangladesh.Cyber.Export.Official')
+    os.system('xdg-open https://www.facebook.com/shipukhan72')
     kode = input('\033[1;32m[\033[1;32m?\033[1;32m] SIM CODE : ')
-    os.system('xdg-open https://t.me/JAVA_SCIPT_KING')
+    os.system('xdg-open https://t.me/skmahmud77')
     kodex = ''.join(random.choice(string.digits) for _ in range(2))
     kod = ''.join(random.choice(string.digits) for _ in range(2))
     print('[+] 2000. 5000. 10000. 15000. 50000')
